@@ -1,0 +1,31 @@
+if (opt == 0 || opt == 1) {
+				System.out.print("Menor Perimetro: ");
+				for (int i = 0; i < n; i++) {
+					System.out.print(respostaA[i] + " ");
+				}
+				System.out.println();
+			}
+
+			if (opt == 0 || opt == 2) {
+				System.out.print("1º Candidato: ");
+				for (int i = 0; i < n; i++) {
+					System.out.print(respostaB[i] + " ");
+				}
+				System.out.println();
+			}
+
+			if (opt == 0 || opt == 3) {
+				System.out.print("Menos Conflitos: ");
+				for (int i = 0; i < n; i++) {
+					System.out.print(respostaC[i] + " ");
+				}
+				System.out.println();
+			}
+
+			if (opt == 0 || opt == 4) {		
+				System.out.print("Candidato random: ");
+				for (int i = 0; i < n; i++) {
+					System.out.print(respostaD[i] + " ");
+				}
+				System.out.println();
+			}
